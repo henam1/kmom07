@@ -1,0 +1,176 @@
+/**
+ * General elements
+ */
+
+@import url(figure.css);
+@import url(comments.css);
+@import url(cfmessage.css);
+@import url(question.css);
+@import url(users.css);
+@import url(user.css);
+@import url(tags.css);
+@import url(button.css);
+
+body {
+  color: #333;
+  font-family: 'Vollkorn', serif;
+  overflow-y: scroll;
+    margin: 0;
+    background-color: #fff;
+}
+
+html {
+    background-color: #a6a6a6;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 10px;
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+    position: relative;
+    padding: 10px;
+    padding-left: 20px;
+    background: #0094D8;
+}
+
+.sitetitle {
+  position: absolute;
+  top: 40px;
+  left: 190px;
+  font-size: 48px;
+    color: #fff;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 99px;
+  left: 190px;
+  font-style: italic;
+  color: #fff;
+}
+
+.sitelogo {
+    width: 160px;
+}
+
+header#above{
+    border-bottom:1px solid #999999;
+    color:#FFFFFF;
+    background: #b0b0b0;
+    padding-bottom: 18px;
+    padding-right: 5px;
+}     
+
+header#above a{
+        text-decoration: none;
+        color: #fff;
+}
+
+header#above a:link    {text-decoration:none;}
+header#above a:visited {}
+header#above a:hover   {text-decoration:none;  color: #666;}
+header#above a:active  {text-decoration:none;  color: #333;} sssss
+ 
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    background: #a6a6a6;
+    text-align: center;
+}
+
+.sitefooter {
+    color: #fff;
+    background: #a6a6a6;
+}
+
+.sitefooter a {
+  color: #fff;
+}
+
+
+/**
+ * For articles
+ */
+.article1 {
+}
+
+.article1 h1{
+    border-bottom: 1px solid #ccc;
+}
+
+.byline {   
+    clear: both;
+    overflow: auto;
+    margin-top: 120px;
+    border-top: 1px dashed #ccc;
+    padding-top: 22px;
+    color: #666;
+}
+
+.byline p {
+    width: 600px;
+    vertical-align: middle;
+    font-style: italic;
+    float: left;
+}
+
+.byline img{
+    float: left;
+    height: 80px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.gravatar {
+  float:left;
+}
+
+aside {
+  float: left;
+  margin-left: 50px;
+}
+div#box {
+  background-color: #1495FF;
+  padding: 15px;
+}
+div#box a {
+  color: white;
+  text-decoration: none;
+}
+textarea {
+  min-height: 200px;
+}
+
+/* Misc classes */
+.right {float:right;}
+.left {float:left;}
+.gray {color: gray;}
+.padd {padding: 4px;}

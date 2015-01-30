@@ -1,0 +1,49 @@
+#message {
+    padding: 2px 10px;    
+    margin: 10px 0;
+    width: 50%;
+}
+
+#message i {
+    margin-right: 10px;
+}
+
+.info {
+    background: #DFEBFB;
+    border: 1px solid #82AEE7;
+}
+
+.info p{
+    color: #064393;
+}
+
+
+.error {
+    border: 1px solid #C42608; color: #c00; 
+    background: #FFF0EF;
+}
+
+
+.error p{
+    color:#c00;
+}
+
+
+.success{
+    background: #E0FBCC; 
+    border: 1px solid #6DC70C;
+}
+
+
+.success p{
+    color: #2B6301;
+}
+
+.warning{
+    background: #FCF3F9;
+    border: 1px solid #E38AC2;
+}
+
+.warning p{
+    color: #CA218B;
+}
